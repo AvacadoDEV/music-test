@@ -1,0 +1,217 @@
+import { MusicalNote, Pitch, Accidental } from "./musical-score";
+
+export const notesToPlayInOrder: Array<MusicalNote> = [{
+    pitch: Pitch.G,
+    octave: 4,
+    beats: 5,
+}, {
+    pitch: Pitch.D,
+    octave: 4,
+    beats: 1,
+}, {
+    pitch: Pitch.B,
+    octave: 4,
+    accidental: Accidental.FLAT,
+    beats: 1,
+}, {
+    pitch: Pitch.A,
+    octave: 4,
+    beats: 6,
+}, {
+    pitch: Pitch.F,
+    octave: 4,
+    beats: 1,
+}, {
+    pitch: Pitch.C,
+    octave: 5,
+    beats: 1,
+}, {
+    pitch: Pitch.B,
+    accidental: Accidental.FLAT,
+    octave: 4,
+    beats: 6,
+}, {
+    pitch: Pitch.B,
+    accidental: Accidental.FLAT,
+    octave: 4,
+    beats: 1,
+}, {
+    pitch: Pitch.C,
+    octave: 5,
+    beats: 1,
+}, {
+    pitch: Pitch.D,
+    octave: 5,
+    beats: 1,
+}, {
+    pitch: Pitch.F,
+    octave: 5,
+    beats: 1.5,
+}, {
+    pitch: Pitch.D,
+    accidental: Accidental.SHARP,
+    octave: 5,
+    beats: 1.5,
+}, {
+    pitch: Pitch.A,
+    octave: 4,
+    beats: 2,
+}, {
+    pitch: Pitch.C,
+    octave: 5,
+    beats: 1,
+}, {
+    pitch: Pitch.D,
+    octave: 5,
+    beats: 1,
+}, {
+    pitch: Pitch.D,
+    accidental: Accidental.SHARP,
+    octave: 5,
+    beats: 1,
+}, {
+    pitch: Pitch.G,
+    octave: 5,
+    beats: 5,
+}, {
+    pitch: Pitch.D,
+    accidental: Accidental.SHARP,
+    octave: 5,
+    beats: 1,
+}, {
+    pitch: Pitch.F,
+    accidental: Accidental.SHARP,
+    octave: 5,
+    beats: 1,
+}, {
+    pitch: Pitch.G,
+    octave: 5,
+    beats: 1,
+}, {
+    pitch: Pitch.B,
+    accidental: Accidental.FLAT,
+    octave: 5,
+    beats: 4,
+}, {
+    pitch: Pitch.A,
+    octave: 5,
+    beats: 4,
+}, {
+    pitch: Pitch.D,
+    octave: 5,
+    beats: 12,
+}, {
+    pitch: Pitch.B,
+    accidental: Accidental.FLAT,
+    octave: 4,
+    beats: 1,
+}, {
+    pitch: Pitch.C,
+    octave: 5,
+    beats: 1,
+}, {
+    pitch: Pitch.D,
+    octave: 5,
+    beats: 1,
+}, {
+    pitch: Pitch.B,
+    accidental: Accidental.FLAT,
+    octave: 4,
+    beats: 1,
+}, {
+    pitch: Pitch.F,
+    octave: 5,
+    beats: 3,
+}, {
+    pitch: Pitch.D,
+    accidental: Accidental.SHARP,
+    octave: 5,
+    beats: 3,
+}, {
+    pitch: Pitch.D,
+    octave: 5,
+    beats: 2,
+}, {
+    pitch: Pitch.C,
+    octave: 5,
+    beats: 3,
+}, {
+    pitch: Pitch.B,
+    accidental: Accidental.FLAT,
+    octave: 4,
+    beats: 3,
+}, {
+    pitch: Pitch.A,
+    octave: 4,
+    beats: 2,
+}, {
+    pitch: Pitch.A,
+    octave: 4,
+    beats: 3,
+}, {
+    pitch: Pitch.B,
+    accidental: Accidental.FLAT,
+    octave: 4,
+    beats: 9,
+}, {
+    pitch: Pitch.B,
+    accidental: Accidental.FLAT,
+    octave: 4,
+    beats: 1,
+}, {
+    pitch: Pitch.C,
+    octave: 5,
+    beats: 1,
+}, {
+    pitch: Pitch.D,
+    octave: 5,
+    beats: 1,
+}, {
+    pitch: Pitch.B,
+    accidental: Accidental.FLAT,
+    octave: 4,
+    beats: 1,
+}, {
+    pitch: Pitch.F,
+    octave: 5,
+    beats: 3,
+}, {
+    pitch: Pitch.D,
+    accidental: Accidental.SHARP,
+    octave: 5,
+    beats: 3,
+}, {
+    pitch: Pitch.D,
+    octave: 5,
+    beats: 2,
+}, {
+    pitch: Pitch.C,
+    octave: 5,
+    beats: 3,
+}, {
+    pitch: Pitch.B,
+    accidental: Accidental.FLAT,
+    octave: 4,
+    beats: 2,
+}, {
+    pitch: Pitch.D,
+    octave: 4,
+    beats: 1,
+}, {
+    pitch: Pitch.G,
+    octave: 4,
+    beats: 1,
+}, {
+    pitch: Pitch.B,
+    accidental: Accidental.FLAT,
+    octave: 4,
+    beats: 1,
+}, {
+    pitch: Pitch.A,
+    octave: 4,
+    beats: 3,
+}, {
+    pitch: Pitch.G,
+    octave: 4,
+    beats: 12,
+}];

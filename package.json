@@ -1,0 +1,21 @@
+{
+  "name": "music-test",
+  "version": "1.0.0",
+  "description": "A simple test to play music based on events sent by an RxJS stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": "Webtrigon Technologies Pvt. Ltd.",
+  "devDependencies": {
+    "ts-loader": "^7.0.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "nvm": "^0.0.4"
+  }
+}
